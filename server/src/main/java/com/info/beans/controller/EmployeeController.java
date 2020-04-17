@@ -46,4 +46,9 @@ public class EmployeeController {
 	public String  isAppAuthenticate() {
 			return "hello";
 	}
+	
+	@GetMapping("/pom")
+	public String  isAppAuthenticates() {
+			return "hello";
+	}
 }
